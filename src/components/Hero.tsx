@@ -36,8 +36,9 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
   const chipY = useTransform(py, [-1, 1], [12, -12]);
   const glowX = useTransform(px, [-1, 1], ['-6%', '6%']);
 
+  const startYear = education[0].period.split(/\s*[-–]\s*/)[0].trim().split(' ').pop() || '2025';
   const meta = [
-    education[0].period.split(' – ')[0].split(' ')[1] + ' – Present',
+    `${startYear} – Present`,
     'B.Tech CSE',
     `${projects.length} Originals`,
     `${certifications.length} Certifications`,
@@ -46,7 +47,7 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
   const floating = [
     { text: education[0].score, sub: 'B.Tech CSE', pos: 'left-[2%] top-[30%]', depth: 1 },
     { text: `${achievements[0].title}`, sub: achievements[0].org, pos: 'right-[0%] top-[18%]', depth: -1 },
-    { text: 'C++ · React · Typescript', sub: 'Primary stack', pos: 'right-[4%] bottom-[24%]', depth: 0.6 },
+    { text: 'C++ · React · TypeScript', sub: 'Primary stack', pos: 'right-[4%] bottom-[24%]', depth: 0.6 },
   ];
 
   return (

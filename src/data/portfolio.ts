@@ -17,7 +17,7 @@ export const profile = {
   tagline: ['Web Developer', 'MERN Stack', 'C++'],
   intro:
     'A web developer passionate about building interactive digital experiences, modern web applications, and practical solutions. Focused on creating clean interfaces, meaningful functionality, and projects that turn ideas into reality.',
-  location: 'Banmankhi,Bihar',
+  location: 'Banmankhi, Bihar',
   email: 'forstudypiyush222@gmail.com',
   links: {
     linkedin: 'https://www.linkedin.com/in/piyush-kumar-36a359372/',
@@ -77,6 +77,8 @@ export type Project = {
   metrics: Metric[];
   /** Omit when the repository isn't public — the GitHub button is hidden instead of linking to a 404. */
   github?: string;
+  /** Live demo URL (e.g. hosted on Netlify) */
+  demo?: string;
   palette: Palette;
   motif: 'shield' | 'flow' | 'tenants';
 };
@@ -110,6 +112,7 @@ export const projects: Project[] = [
     { value: 'Dynamic', label: 'weather themes' },
   ],
     github: 'https://github.com/forstudypiyush222-tech/Weather-App',
+    demo: 'https://aether-sky.netlify.app/',
     palette: { from: '#2a0610', via: '#7a0f24', to: '#0b0710', accent: '#ff3d5a' },
     motif: 'flow',
   },
@@ -138,6 +141,7 @@ export const projects: Project[] = [
     { value: '1', label: 'admin interface' },
   ],
   github: 'https://github.com/forstudypiyush222-tech/Recipe-Website',
+  demo: 'https://piyushdadhaba.netlify.app/',
   palette: { from: '#1a0d02', via: '#8a4a07', to: '#0a0806', accent: '#ffb547' },
   motif: 'flow',
   },
@@ -163,8 +167,10 @@ export const projects: Project[] = [
     { value: '2', label: 'user roles' },
     { value: '11', label: 'test files reported' },
     { value: '3', label: 'event actions: create, register, cancel' },
+    { value: '100%', label: 'client-side application' },
   ],
   github: 'https://github.com/forstudypiyush222-tech/CampusConnect',
+  demo: 'https://campus-event-desk.netlify.app/',
   palette: { from: '#04121f', via: '#0f4c6e', to: '#05080d', accent: '#4cc9ff' },
   motif: 'tenants',
   },
@@ -340,15 +346,15 @@ export const seasons: Season[] = [
   {
   number: 1,
   title: 'The Beginning',
-  period: '2022 – 2024',
+  period: '2020 – 2024',
   synopsis: 'School years at Indian Public School, Purnia, Bihar — building the academic foundation before beginning the engineering journey.',
   episodes: [
     {
       code: 'S01 E01',
       title: 'The Foundation',
-      description: 'Completed CBSE schooling at Indian Public School, Purnia, Bihar, with an overall score of 90% + 70%.',
+      description: 'Completed CBSE schooling at Indian Public School, Purnia, Bihar, with 90% in 10th and 70% in 12th (overall 80%).',
       tags: ['CBSE', 'Indian Public School'],
-      runtime: '2022 – 2024',
+      runtime: '2020 – 2024',
       palette: amber,
     },
     ],
