@@ -181,63 +181,29 @@ export type Achievement = {
 
 export const achievements: Achievement[] = [
   {
-    id: 'kiituniversity',
-    title: 'Tech Fellow',
-    org: 'KiitUniversity',
-    detail: 'Selected through competitive national selection — advanced DSA, algorithm optimization, and competitive coding.',
-    laurel: 'National Selection',
-  },
-  {
-    id: 'flipkart-grid',
-    title: 'Semi-Finalist',
-    org: 'Flipkart GRiD 7.0',
-    detail: 'Competed among top national engineering talent.',
-    laurel: 'Semi-Finalist',
-    link: 'https://drive.google.com/file/d/16pXA2hssyJqlYMr27wfi6U4bjKDLvh9f/view?usp=drive_link',
-  },
-  {
-    id: 'branch-topper',
-    title: 'CSE Branch Topper',
-    org: 'B.Tech CSE',
-    detail: '8.9 CGPA In the first year.',
-    laurel: 'Branch Topper',
-  },
-  {
-    id: 'competitive-coding',
-    title: '850+ Problems Solved',
-    org: 'LeetCode • GFG • CodeChef',
-    detail: 'LeetCode: 350+ DSA problems (peak rating 1442). GFG: 300+ problems (rating 1436). CodeChef: 200+ problems.',
-    laurel: 'Competitive Coding',
-  },
-  {
-    id: 'hackerrank',
-    title: '5-Star Badges',
-    org: 'HackerRank',
-    detail: '5-star badges in C, Python, Java, and SQL.',
-    laurel: 'Four Languages',
+    id: 'first-year-cgpa',
+    title: '8.9 CGPA',
+    org: 'KIIT University • B.Tech CSE',
+    detail: 'Achieved an 8.9 CGPA in the first year of the Computer Science and Engineering degree.',
+    laurel: 'Academic Achievement',
   },
 ];
 
 export type Certification = { issuer: string; name: string; link: string };
 
 export const certifications: Certification[] = [
-  { issuer: 'NPTEL', name: 'Database Management System', link: 'https://drive.google.com/file/d/1MqkJHchXeaGD4S8mzPmEGxEYddAsxAjN/view?usp=drive_link' },
-  { issuer: 'NPTEL', name: 'Fundamentals of Artificial Intelligence', link: 'https://drive.google.com/file/d/1GqyUQ-lrE-bHaN457t6fIdssgGG4HMXf/view?usp=drive_link' },
-  { issuer: 'NPTEL', name: 'Deep Learning', link: 'https://drive.google.com/file/d/1PWSRP5SQDPzkoTCF3A24eIJoSpTwgsff/view?usp=sharing' },
-  { issuer: 'AWS', name: 'AWS Certified AI Practitioner', link: 'https://drive.google.com/file/d/1h8e5p0a9T6f5gBaOP2ROfwWHZfkkspGn/view?usp=drive_link' },
-  { issuer: 'AWS', name: 'AWS Academy Graduate – Cloud Foundations', link: 'https://www.credly.com/badges/2d4810f9-3dbe-444d-99b9-61312ea5e7df/public_url' },
-  { issuer: 'MongoDB', name: 'MongoDB Certified Associate Developer', link: 'https://www.credly.com/badges/fd3362bd-743a-4c4d-a68e-b1fdc5d46811/public_url' },
-  { issuer: 'GitHub', name: 'GitHub Foundations', link: 'https://drive.google.com/file/d/1o0fkCAMRWTg1oMwxlqu6t6wnOpBv66Vq/view?usp=sharing' },
-  { issuer: 'Pearson', name: 'IT Specialist – HTML and CSS', link: 'https://www.credly.com/badges/e4a55298-e396-41d8-a032-283aafe9fab7/public_url' },
-  { issuer: 'Oracle', name: 'Java Certified Foundations Associate', link: 'https://drive.google.com/file/d/1g-yyceHtLg_k2RWiOIJqH0MMcGlaH90P/view?usp=sharing' },
-  { issuer: 'Oracle', name: 'Oracle Certified Foundations Associate – Database', link: 'https://drive.google.com/file/d/10-DzabbcH2vHrI6bAohoT8czKRZMa2kV/view?usp=drive_link' },
-  { issuer: 'Cisco', name: 'HTML Essentials', link: 'https://www.credly.com/badges/eb27ca95-3b2a-4948-bef9-0385d1d49055/public_url' },
-  { issuer: 'Cisco', name: 'CSS Essentials', link: 'https://www.credly.com/badges/3b37497f-6a61-4889-af3c-ed337a460a0b/public_url' },
-  { issuer: 'Cisco', name: 'JavaScript Essentials 1', link: 'https://www.credly.com/badges/9cdd4d55-6ecc-463f-b254-811ccdd0539c/public_url' },
-  { issuer: 'Cisco', name: 'JavaScript Essentials 2', link: 'https://www.credly.com/badges/0e1b036e-4318-4c8e-b750-2aca77314442/public_url' },
-  { issuer: 'Cisco', name: 'Python Essentials 1', link: 'https://www.credly.com/badges/0e21e3eb-d8ef-4770-95d7-dcbd6f8696b1/public_url' },
-  { issuer: 'Udemy', name: 'Microsoft Azure Hands-On Training (AZ-900, AZ-104, AZ-305)', link: 'https://drive.google.com/file/d/1KrXClhY0nJ3Acxs7DioNf4Q1rpaMvgPT/view?usp=sharing' },
+  { issuer: 'Pinnacle Lab', name: 'Web Development', link: 'https://drive.google.com/file/d/1X4-m76Ul3sasRWnArHqTLNnc1ImB4g1n/view?usp=drivesdk' },
+  { issuer: 'KIIT University', name: 'AI & ML and NLP', link: 'https://drive.google.com/file/d/10JjmaZijrI4F7y9AJtdV6475xdtP1TAy/view?usp=drivesdk' },
+  { issuer: 'Mimo', name: 'Python AI Development', link: 'https://drive.google.com/file/d/1gPBK9JAGETwIdYP368vRaPsdOpJlcy79/view?usp=drivesdk' },
+  { issuer: 'ICAT', name: 'Common Aptitude Test', link: 'https://drive.google.com/file/d/1Ps3gle6YRpM9JWt6p2FeEbvVCbivRXom/view?usp=drivesdk' },
+  { issuer: 'Cisco', name: 'HTML Essentials', link: 'https://www.credly.com/badges/727013d9-9d40-433d-9e09-fae9060f0b5d/public_url' },
+  { issuer: 'Anthropic', name: 'Claude Code in Action', link: 'https://verify.skilljar.com/c/mf5j7ct9x9wc' },
+  { issuer: 'Anthropic', name: 'Introduction to MCP', link: 'https://verify.skilljar.com/c/n7kskcqfpwdy' },
+  { issuer: 'Anthropic', name: 'Building With Claude API', link: 'https://verify.skilljar.com/c/yjedkifm9pyb' },
+  { issuer: 'Anthropic', name: 'AI Fluency: Framework & Foundations', link: 'https://verify.skilljar.com/c/qms2k77yrovw' },
+  { issuer: 'Anthropic', name: 'Model Context Protocol: Advanced Topics', link: 'https://verify.skilljar.com/c/rawdhc2nu6b2' },
 ];
+
 
 export type Skill = { name: string; mono: string; note?: string };
 export type SkillCategory = { id: string; title: string; subtitle: string; skills: Skill[] };
