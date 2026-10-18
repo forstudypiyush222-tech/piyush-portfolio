@@ -149,20 +149,6 @@ This runs the image optimization script for the portfolio's responsive media ass
         └── fx.tsx                # Particle canvas, 3D tilt, magnetic effects
 ```
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/forstudypiyush222-tech">
-    <img src="https://github-readme-stats.vercel.app/api?username=forstudypiyush222-tech&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub profile statistics" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/forstudypiyush222-tech">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=forstudypiyush222-tech&layout=compact&theme=transparent&hide_border=true" alt="Most-used languages on GitHub" />
-  </a>
-</p>
-
 ## 🤝 Let's Connect
 
 Have an idea, feedback, or an interesting project? Let's connect! 🚀
