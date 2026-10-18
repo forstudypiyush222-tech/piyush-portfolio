@@ -1,5 +1,5 @@
 /**
- * Central portfolio data — generated from Sushmita's resume (Sushmita_dasari.pdf).
+ * Central portfolio data — generated from Piyush's resume (Piyush_Kumar_Resume.pdf).
  * Every fact on the site comes from this file. Update it here and the whole site follows.
  * Nothing here should be added unless it appears on the resume.
  */
@@ -181,9 +181,9 @@ export type Achievement = {
 
 export const achievements: Achievement[] = [
   {
-    id: 'algouniversity',
+    id: 'kiituniversity',
     title: 'Tech Fellow',
-    org: 'AlgoUniversity',
+    org: 'KiitUniversity',
     detail: 'Selected through competitive national selection — advanced DSA, algorithm optimization, and competitive coding.',
     laurel: 'National Selection',
   },
@@ -197,9 +197,9 @@ export const achievements: Achievement[] = [
   },
   {
     id: 'branch-topper',
-    title: 'AIML Branch Topper',
-    org: 'B.Tech AI & ML',
-    detail: '9.24 SGPA for the semester.',
+    title: 'CSE Branch Topper',
+    org: 'B.Tech CSE',
+    detail: '8.9 CGPA In the first year.',
     laurel: 'Branch Topper',
   },
   {

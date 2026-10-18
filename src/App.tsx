@@ -26,7 +26,7 @@ const ResumeModal = lazy(() => import('./components/ResumeModal'));
 
 type Stage = 'opening' | 'profiles' | 'home';
 
-const STORAGE_KEY = 'sushmita-series-profile';
+const STORAGE_KEY = 'piyush-series-profile';
 
 function readStoredProfile(): ProfileId | null {
   try {
