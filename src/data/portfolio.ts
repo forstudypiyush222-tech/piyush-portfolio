@@ -44,8 +44,8 @@ export const education = [
     school: 'Indian Public School',
     place: 'Purnia, Bihar',
     degree: 'CBSE',
-    period: '2022 - 2024',
-    score: 'Score 70%',
+    period: '2020 - 2024',
+    score: 'Score 80%',
   },
 ];
 
@@ -182,7 +182,7 @@ export type Achievement = {
 export const achievements: Achievement[] = [
   {
     id: 'first-year-cgpa',
-    title: '8.9 CGPA',
+    title: 'CSE UNDERGRADUATE',
     org: 'KIIT University • B.Tech CSE',
     detail: 'Achieved an 8.9 CGPA in the first year of the Computer Science and Engineering degree.',
     laurel: 'Academic Achievement',
