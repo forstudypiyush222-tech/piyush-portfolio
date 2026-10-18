@@ -86,7 +86,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 'aether',
-    title: 'Aether — Weather Intelligence Dashboard',
+    title: 'Aether',
     year: '2025',
     genre: 'Frontend Engineering • Weather Intelligence',
     logline: 'A premium, responsive weather dashboard that transforms live weather data into an interactive and visually engaging experience.',
