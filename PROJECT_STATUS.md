@@ -4,7 +4,7 @@
 **Project Name:** `piyush-the-series`  
 **Identity:** Piyush Kumar (Web Developer • C++ • MERN Stack)  
 **Degree & Institution:** B.Tech Computer Science and Engineering, KIIT University, Bhubaneswar  
-**Current Milestone:** Post-Remediation Verification & Quality Audit  
+**Current Milestone:** Vercel Web Analytics Integration  
 **Overall Status:** PASS — FULLY PERSONALIZED (All critical, major, minor, and factual items verified)
 
 ---
@@ -17,6 +17,7 @@
 - **Styling:** Tailwind CSS 4.1.4 via `@tailwindcss/vite`
 - **Animation & Motion:** Framer Motion 11.18.2
 - **Smooth Scrolling:** Lenis 1.1.20
+- **Analytics:** Vercel Web Analytics via `@vercel/analytics` ^2.0.1
 - **Image Pipeline:** Sharp 0.34.1 (`scripts/build-images.mjs`)
 - **Automated Tests:** Not configured in root portfolio `package.json` (CampusConnect test references are isolated to external repo).
 
@@ -39,6 +40,7 @@
 | 11 | `index.html` | Favicon pointed to `/public/favicon.svg`; meta description had `Javascript` | Changed favicon path to canonical `/favicon.svg` and capitalized `JavaScript` | **VERIFIED** |
 | 12 | `README.md` | File was deleted in prior commit; missing documentation | Created comprehensive, personalized `README.md` | **VERIFIED** |
 | 13 | `PROJECT_STATUS.md` | File did not exist | Created this tracking document | **VERIFIED** |
+| 14 | `src/App.tsx` | No analytics integration existed | Installed `@vercel/analytics` ^2.0.1 and added `<Analytics />` component in root `App()` | **VERIFIED** |
 
 ---
 
@@ -64,6 +66,7 @@
 
 ---
 
-## 5. Outstanding Issues
+## 5. Outstanding Items
 
-- None. All audit items, branding remnants, and factual consistency issues have been remediated and verified.
+- **Vercel Dashboard:** Enable Web Analytics in the Vercel project dashboard (Analytics tab → Enable). Data collection will not begin until this is enabled.
+

@@ -1,5 +1,6 @@
 import { lazy, Suspense, useCallback, useEffect, useState, type ReactNode } from 'react';
 import { AnimatePresence, LayoutGroup, motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import { viewerProfiles, type ProfileId, type Project, type SectionId } from './data/portfolio';
 import { SmoothScrollProvider, useSmoothScroll } from './hooks/smoothScroll';
 import CustomCursor from './components/CustomCursor';
@@ -41,6 +42,7 @@ export default function App() {
   return (
     <SmoothScrollProvider>
       <Series />
+      <Analytics />
     </SmoothScrollProvider>
   );
 }
